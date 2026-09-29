@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="WooCommerce Integration Hub">
+    <description>WordPress/WooCommerce portfolio plugin coding standards.</description>
+    <file>src</file>
+    <file>tests</file>
+    <file>woocommerce-integration-hub.php</file>
+    <arg name="extensions" value="php"/>
+    <rule ref="WordPress-Core"/>
+    <rule ref="WordPress-Extra"/>
+    <exclude-pattern>vendor/*</exclude-pattern>
+</ruleset>
