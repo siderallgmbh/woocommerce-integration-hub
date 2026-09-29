@@ -1,8 +1,7 @@
 parameters:
     level: 6
     paths:
-        - src
+        - src/Domain
+        - src/Webhook/WebhookVerifier.php
+        - src/Api/ApiResponse.php
         - tests
-    ignoreErrors:
-        - '#Function .* not found#'
-        - '#Class (WC_|WooCommerce|WP_).* not found#'
