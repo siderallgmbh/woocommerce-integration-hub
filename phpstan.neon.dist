@@ -1,0 +1,8 @@
+parameters:
+    level: 6
+    paths:
+        - src
+        - tests
+    ignoreErrors:
+        - '#Function .* not found#'
+        - '#Class (WC_|WooCommerce|WP_).* not found#'
