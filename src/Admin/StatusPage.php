@@ -31,7 +31,11 @@ final class StatusPage
         echo '<p>' . esc_html__('External API configuration:', 'wcih') . ' <strong>';
         echo $configured ? esc_html__('configured', 'wcih') : esc_html__('missing', 'wcih');
         echo '</strong></p>';
-        echo '<p>' . esc_html__('Logs are available through WooCommerce > Status > Logs using source "woocommerce-integration-hub".', 'wcih') . '</p>';
+        $log_message = esc_html__(
+            'Logs are available through WooCommerce > Status > Logs using source "woocommerce-integration-hub".',
+            'wcih'
+        );
+        echo '<p>' . $log_message . '</p>';
         echo '</div>';
     }
 }
