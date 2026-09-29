@@ -26,5 +26,10 @@
     "test": "phpunit",
     "analyse": "phpstan analyse",
     "phpcs": "phpcs"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
   }
 }
