@@ -32,7 +32,7 @@ Typical flow:
 - admin status page;
 - PHPUnit unit tests;
 - PHPStan static analysis;
-- PHPCS / WordPress Coding Standards;
+- PHPCS / PSR-12;
 - GitHub Actions CI.
 
 ## Architecture
